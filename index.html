@@ -42,9 +42,9 @@
                     <h2>About Us</h2>
                 </div>
                 <div class="header-div-bottom2">
-                    <p><a href="/">HOME</a></p>
+                    <a href="/">HOME</a>
                     <hr>
-                    <p><a href="/">ABOUT US</a></p>
+                    <a href="/">ABOUT US</a>
                 </div>
             </div>
         </div>
@@ -54,11 +54,24 @@
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190556.07402266804!2d44.69876773128919!3d41.732630406242045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f626b%3A0x61d084ede2576ea3!2z4YOX4YOR4YOY4YOa4YOY4YOh4YOY!5e0!3m2!1ska!2sge!4v1670926094521!5m2!1ska!2sge" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div>
-            <div>
+            <div class="form-title">
                 <h4>Contact</h4>
                 <p>Contact us to get free support</p>
             </div>
-            <div></div>
+            <div class="form-div">
+                <div>
+                    <textarea class="textarea-style" id="description" name="description" rows="10" cols="90" placeholder="Description"></textarea>
+                </div>
+                <div class="input-div">
+                    <form class="input-form" action="">
+                        <input class="input-style" type="text" id="subj" name="subject" placeholder="Subject">
+                        <input class="input-style" type="text" id="name/surname" name="name" placeholder="Name / Surname">
+                        <input class="input-style" type="text" id="email" name="email" placeholder="Email">
+                        <button class="btn-style" type="submit">Send<i class="fa-regular fa-paper-plane"></i></button>
+                    </form>
+                </div>
+                <div></div>
+            </div>
         </div>
         <div class="contact-div-wraper">
             <div class="contact-div">
@@ -73,7 +86,7 @@
             </div>
             <div class="contact-div">
                 <div class="icon-div">
-                    <i class="fa-regular fa-phone-volume"></i>
+                    <i class="fa-solid fa-phone-volume"></i>
                 </div>
                 <div class="contact-bottom-div">
                     <h3>Phone</h3>
@@ -83,7 +96,7 @@
             </div>
             <div class="contact-div">
                 <div class="icon-div">
-                    <i class="fa-regular fa-location-dot"></i>
+                    <i class="fa-solid fa-droplet"></i>
                 </div>
                 <div class="contact-bottom-div">
                     <h3>Location</h3>
@@ -108,16 +121,16 @@
         </div>
     </section>
     <footer>
-        <div>
+        <div class="footer-div-wraper">
             <div class="footer-top">
-                <div >
+                <div class="footer-info-div">
                     <div>
-                        <h3>Zetta Hotels</h3>
-                        <p>Our hotel is an image of quality and profesionalism combined with hard work and precision. You can expect only the best services from our staff.</p>
+                        <h3 class="footer-title">Zetta Hotels</h3>
+                        <p class="footer-text">Our hotel is an image of quality and profesionalism combined with hard work and precision. You can expect only the best services from our staff.</p>
                     </div>
-                    <div>
+                    <div class="footer-icon">
                         <div>
-                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-facebook-f"></i>
                         </div>
                         <div>
                             <i class="fa-brands fa-twitter"></i>
@@ -128,8 +141,8 @@
                     </div>
                 </div>
                 <div>
-                    <h3>Useful links</h3>
-                    <ul>
+                    <h3 class="ul-title">Useful links</h3>
+                    <ul class="ul-info">
                         <li><a href="">Blog</a></li>
                         <li><a href="">Rooms</a></li>
                         <li><a href="">Gift Card</a></li>
@@ -148,9 +161,9 @@
                 <div>
                     <h3>Contact Info</h3>
                     <ul>
-                        <li><a href=""><i class="fa-light fa-envelope"></i></a>example@yahoo.com</li>
-                        <li><a href=""><i class="fa-light fa-phone-volume"></i></a>+0 320 422 4254</li>
-                        <li><a href=""><i class="fa-light fa-location-dot"></i></a>Main Str Chicago Ilinois</li>
+                        <li><a href=""><i class="fa-regular fa-envelope"></i></a>example@yahoo.com</li>
+                        <li><a href=""><i class="fa-solid fa-phone-volume"></i></a>+0 320 422 4254</li>
+                        <li><a href=""><i class="fa-solid fa-droplet"></i></a>Main Str Chicago Ilinois</li>
                     </ul>
                 </div>
             </div>
