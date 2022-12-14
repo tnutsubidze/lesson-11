@@ -9,7 +9,8 @@
 :root{
     --colorblue: #5863F8;
     --colorwhite: #ffffff;
-    --width1: 1088px
+    --width1: 1088px;
+    --font1: 'Poppins', sans-serif;
 }
 /*heaser css*/
 .header-bg{
@@ -63,11 +64,11 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font1);
     font-weight: 600;
 }
 .logo{
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font1);
     font-weight: bold;
 }
 header a{
@@ -101,7 +102,7 @@ li:nth-child(2){
 .header-div-bottom > div:nth-child(1){
     font-size: 42px;
     margin-top: 96px;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font1);
     font-weight: 800;
 }
 .hr::after{
@@ -110,7 +111,7 @@ li:nth-child(2){
     color: var(--colorwhite);
 }
 .header-div-bottom2{
-    width: 150px;
+    width: 200px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -125,7 +126,7 @@ li:nth-child(2){
     -ms-flex-align: center;
     align-items: center;
     margin-top: 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font1);
     font-weight: 500;
 }
 
@@ -149,11 +150,16 @@ li:nth-child(2){
 .form-title > h4:nth-child(1){
     font-size: 14px;
     color: var(--colorblue);
+    font-family: var(--font1);
+    font-weight: bold;
+
 }
 .form-title > p:nth-child(2){
     font-size: 42px;
     max-width: 358px;
     width: 100%;
+    font-family: var(--font1);
+    font-weight: 800;
 }
 .form-div{
     max-width: var(--width1);
@@ -282,6 +288,8 @@ li:nth-child(2){
     font-size: 18px;
     margin-top: 15px;
     margin-bottom: 5px;
+    font-family: var(--font1);
+    font-weight: 600;
 }
 .contact-bottom-div > p:nth-child(2),
 .contact-bottom-div > p:nth-child(3){
@@ -309,11 +317,14 @@ li:nth-child(2){
 .img-info > h3:nth-child(1){
     color: var(--colorblue);
     font-size: 14px;
+    font-family: var(--font1);
 }
 .img-info > p:nth-child(2){
     font-size: 42px;
     max-width: 565px;
     width: 100%;
+    font-family: var(--font1);
+    font-weight: 800;
 }
 .images{
     max-width: 352px;
@@ -363,6 +374,7 @@ footer{
 .footer-title{
     font-size: 24px;
     margin-bottom: 20px;
+    font-family: var(--font1);
 }
 .footer-text{
     font-size: 14px;
@@ -404,6 +416,8 @@ footer{
 .ul-title{
     font-size: 18px;
     margin-bottom: 20px;
+    font-family: var(--font1);
+    font-weight: 600;
 }
 footer a{
     font-size: 14px;
