@@ -234,6 +234,10 @@ li:nth-child(2){
 .btn-style{
     height: 60px;
     font-size: 14px;
+    background-image: url("../img/send.svg");
+    background-repeat: no-repeat;
+    background-position: 200px 22px;
+    background-size: 16px 16px;
     color: var(--colorwhite);
     background-color: var(--colorblue);
     border: 2px solid;
